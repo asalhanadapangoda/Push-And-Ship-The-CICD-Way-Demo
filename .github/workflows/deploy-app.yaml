@@ -22,7 +22,10 @@ jobs:
       - name: Run tests
         run: npm test
 
-      
+      - name: Build app
+        run: docker build -t test-app .
+
+        
 
       
     
